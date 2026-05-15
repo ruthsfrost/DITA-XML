@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="what_is_addition">
+    <title>What is addition?</title>
+    <shortdesc>Addition is a mathematical operation.</shortdesc>
+    <conbody>
+        <p> Addition allows you to find the sum of two numbers. In the addition process, we add one
+            number to another and the sum is the result.</p>
+        <p>The plus (+) button expresses the addition operation in the app.</p>
+    </conbody>
+</concept>

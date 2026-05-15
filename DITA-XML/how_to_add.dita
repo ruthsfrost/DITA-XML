@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="how_to_add">
+    <title>How to add</title>
+    <shortdesc>Use the calculator to add.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_jgr_hl4_gjc">To successfully add, you must understand addition.</prereq>
+        <steps>
+            <step>
+                <cmd>Enter the first number.</cmd>
+            </step>
+            <step>
+                <cmd>Choose the plus (+) button.</cmd>
+            </step>
+            <step>
+                <cmd>Enter the second number.</cmd>
+            </step>
+            <step>
+                <cmd>Choose the equal (=) button.</cmd>
+            </step>
+        </steps>
+        <result id="result_g1r_4l4_gjc">The calculator displays the result. </result>
+        <example id="example_rvt_pl4_gjc">You want to add 2 to 3. The equation will be 3+2=5. Enter
+            3. Press plus. Enter 2. Press equal. The calculator displays the number 5.</example>
+    </taskbody>
+</task>
