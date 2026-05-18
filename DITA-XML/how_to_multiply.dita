@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="how_to_add">
-    <title>How to add</title>
-    <shortdesc>Use the calculator to add.</shortdesc>
+<task id="how_to_multiply">
+    <title>How to multiply</title>
+    <shortdesc>Use the calculator to multiply.</shortdesc>
     <taskbody>
-        <prereq id="prereq_jgr_hl4_gjc">Understand <xref href="what_is_addition.dita"/>.</prereq>
+        <prereq id="prereq_zn3_jfm_hjc">Understand <xref href="what_is_multiplication.dita"
+        />.</prereq>
         <steps>
             <step>
                 <cmd>Enter the first number.</cmd>
             </step>
             <step>
-                <cmd>Choose the plus (+) button.</cmd>
+                <cmd>Choose the asterisk (*) button.</cmd>
             </step>
             <step>
                 <cmd>Enter the second number.</cmd>
@@ -21,7 +22,8 @@
         </steps>
         <result conref="reusable-components.dita#ReusableComponent_vkg_r3m_hjc/result_ybq_4bj_gjc"
             id="result_rvh_r3m_hjc"/>
-        <example id="example_rvt_pl4_gjc">You want to add 2 to 3. The equation will be 3+2=5. Enter
-            3. Press plus. Enter 2. Press equal. The calculator displays the number 5.</example>
+        <example id="example_pw3_tfm_hjc">You want to multiply 2 and 3. The equation will be 3*2=6.
+            Enter 3. Press asterisk. Enter 2. Press equal. The calculator displays the number
+            6.</example>
     </taskbody>
 </task>

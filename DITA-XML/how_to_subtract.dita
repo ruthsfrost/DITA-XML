@@ -4,8 +4,7 @@
     <title>How to subtract</title>
     <shortdesc>Use the calculator to subtract.</shortdesc>
     <taskbody>
-        <prereq id="prereq_a11_z1j_gjc">To successfully subtract, you must understand
-            subtraction.</prereq>
+        <prereq id="prereq_a11_z1j_gjc">Understand <xref href="what_is_subtraction.dita"/>.</prereq>
         <steps>
             <step>
                 <cmd>Enter the first number.</cmd>
@@ -20,7 +19,8 @@
                 <cmd>Choose the equal (=) button.</cmd>
             </step>
         </steps>
-        <result id="result_ybq_4bj_gjc">The calculator displays the result. </result>
+        <result conref="reusable-components.dita#ReusableComponent_vkg_r3m_hjc/result_ybq_4bj_gjc"
+            id="result_rvh_r3m_hjc"/>
         <example id="example_s2w_qbj_gjc">You want to subtract 2 from 3. The equation will be 3-2=1.
             Enter 3. Press minus. Enter 2. Press equal. The calculator displays the number
             1.</example>

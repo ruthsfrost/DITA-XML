@@ -2,11 +2,11 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="what_is_subtraction">
     <title>What is subtraction?</title>
-    <shortdesc>Subtraction is a mathematical operation.</shortdesc>
+    <shortdesc>Subtraction is a mathematical operation that allows you to find the difference of two
+        numbers.</shortdesc>
     <conbody>
-        <p>Subtraction is a mathematical operation. Subtraction allows you to find the difference of
-            two numbers. In the subtraction process, we take away one number from another and the
-            remainder is the result. </p>
+        <p>In the subtraction process, we take away one number from another and the remainder is the
+            result. </p>
         <p>The minus (-) button expresses the subtraction operation in the app. </p>
     </conbody>
 </concept>

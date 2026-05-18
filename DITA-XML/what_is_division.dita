@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="what_is_division">
+    <title>What is division?</title>
+    <shortdesc>Division is a mathematical operation that allows you to find the quotient of two
+        numbers.</shortdesc>
+    <conbody>
+        <p> In the division process, we divide one number by another and the quotient is the
+            result.</p>
+        <p>The slash (/) button expresses the division operation in the app.</p>
+    </conbody>
+</concept>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="what_is_multiplication">
+    <title>What is multiplication? </title>
+    <shortdesc>Multiplication is a mathematical operation that allows you to find the product of two
+        numbers.</shortdesc>
+    <conbody>
+        <p> In the multiplication process, we multiply two numbers and the product is the
+            result.</p>
+        <p>The asterisk (*) button expresses the multiplication operation in the app.</p>
+    </conbody>
+</concept>

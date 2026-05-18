@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="ReusableComponent_vkg_r3m_hjc">
+    <title>Reusable Components</title>
+    <taskbody>
+        <steps id="steps_ojk_zlm_hjc">
+            <step>
+                <cmd>Enter the first number.</cmd>
+            </step>
+            <step>
+                <cmd>Enter the second number.</cmd>
+            </step>
+            <step>
+                <cmd>Choose the equal (=) button.</cmd>
+            </step>
+        </steps>
+        <result id="result_ybq_4bj_gjc">The calculator displays the result. </result>
+    </taskbody>
+</task>

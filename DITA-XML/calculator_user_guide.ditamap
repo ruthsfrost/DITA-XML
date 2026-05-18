@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
-    <title>Calculator User Guide</title>
+    <title>How to use a calculator </title>
     <topichead navtitle="Adding">
         <topicref href="what_is_addition.dita"/>
         <topicref href="how_to_add.dita"/>
@@ -10,6 +10,12 @@
         <topicref href="what_is_subtraction.dita"/>
         <topicref href="how_to_subtract.dita"/>
     </topichead>
-    <topichead navtitle="Multiplying"/>
-    <topichead navtitle="Dividing"/>
+    <topichead navtitle="Multiplying">
+        <topicref href="what_is_multiplication.dita"/>
+        <topicref href="how_to_multiply.dita"/>
+    </topichead>
+    <topichead navtitle="Dividing">
+        <topicref href="what_is_division.dita"/>
+        <topicref href="how_to_divide.dita"/>
+    </topichead>
 </map>

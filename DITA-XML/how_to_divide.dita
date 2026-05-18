@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="how_to_add">
-    <title>How to add</title>
-    <shortdesc>Use the calculator to add.</shortdesc>
+<task id="how_to_divide">
+    <title>How to divide</title>
+    <shortdesc>Use the calculator to divide.</shortdesc>
     <taskbody>
-        <prereq id="prereq_jgr_hl4_gjc">Understand <xref href="what_is_addition.dita"/>.</prereq>
+        <prereq id="prereq_bs4_xjm_hjc">Understand <xref href="what_is_division.dita"/>.</prereq>
         <steps>
             <step>
                 <cmd>Enter the first number.</cmd>
             </step>
             <step>
-                <cmd>Choose the plus (+) button.</cmd>
+                <cmd>Choose the slash (/) button.</cmd>
             </step>
             <step>
                 <cmd>Enter the second number.</cmd>
@@ -21,7 +21,8 @@
         </steps>
         <result conref="reusable-components.dita#ReusableComponent_vkg_r3m_hjc/result_ybq_4bj_gjc"
             id="result_rvh_r3m_hjc"/>
-        <example id="example_rvt_pl4_gjc">You want to add 2 to 3. The equation will be 3+2=5. Enter
-            3. Press plus. Enter 2. Press equal. The calculator displays the number 5.</example>
+        <example id="example_nq1_yjm_hjc">You want to divide 6 by 3. The equation will be 6/3=2.
+            Enter 6. Press slash. Enter 3. Press equal. The calculator displays the number
+            2.</example>
     </taskbody>
 </task>
