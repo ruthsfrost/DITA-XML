@@ -1,15 +1,15 @@
 # Case Study: Preparing to Contribute to DITA-OT
 
 ## Purpose
-* Help myself  
-* Help current volunteer group members  
+* Help myself (Ruth: https://www.linkedin.com/in/ruthfrost)
+* Help current volunteer group members: Shane (https://www.linkedin.com/in/shaneataylor), Robin (link TBD), & Eddie (https://www.linkedin.com/in/edwardmcham)
 * Help future members  
 * Improve DITA-OT onboarding documentation
 
 ## Overview of DITA-OT Tasks
 1. Installing DITA-OT
 1. Verifying prerequisite software
-1. Determining DITA-OT version
+1. Testing the installation by checking the DITA-OT version
 
 ## Overview of Git Tasks
 1. Forking the DITA-OT docs directory (one member of the volunteer group)
@@ -21,10 +21,25 @@ In the chat of a Write the Docs networking meeting, I posted a request for a men
 
 Three of us use Windows, but the instructions do not have much guidance for Windows users. As we encountered and overcame each difficulty, we made plans to improve those instructions. 
 
-(Explain the gaps you observed, the confusion points, and the value of documenting the process.)
+(Does this sufficiently explain the gaps we observed, the confusion points, and the value of documenting the process?)
 
 ## Step-by-Step Narrative
 (Write your experience, pain points, screenshots, commands, etc.)
+
+### Installing DITA-OT
+https://www.dita-ot.org/dev/topics/installing
+
+| Current steps | My notes |
+| ----------- | ----------- |
+| 1. Download the dita-ot-4.4.zip package from the project website at dita-ot.org/download. |We had no problems with this step. |
+| 2. Extract the contents of the package to the directory where you want to install DITA-OT. Note: The documentation refers to this location as the DITA-OT installation directory, or dita-ot-dir. |When I extracted the contents of the downloaded zip file into my "dita-ot-dir" folder, that process created a "dita-ot-4.4" folder within my "dita-ot-dir" folder and unzipped all files within that 4.4 subfolder. The solution was to move the contents of the "dita-ot-4.4" folder into my "dita-ot-dir" folder.|
+| 3. Add the absolute path for the bin folder of the DITA-OT installation directory to the PATH environment variable. |I used this command: setx PATH "%PATH%;C:\Users\ruths\dita-ot-dir" /M|
+
+### Verifying prerequisite software
+https://www.dita-ot.org/dev/topics/prerequisite-software
+
+### Testing the installation 
+https://www.dita-ot.org/dev/topics/determining-version-of-ditaot
 
 ## Recommendations for DITA-OT Docs
 (Concrete suggestions based on your experience.)
