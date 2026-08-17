@@ -45,10 +45,16 @@ https://www.dita-ot.org/dev/topics/installing
 ### Verifying prerequisite software
 https://www.dita-ot.org/dev/topics/prerequisite-software
 
+| Current instructions | My notes |
+| ----------- | ----------- |
+|"Java Development Kit (JDK) or Java Runtime Environment (JRE)" |We learned that JRE is sufficient and JDK is not necessary for our purposes. |
+|"DITA-OT 4.4 is designed to run on Java version 17 or later ..." |When I run `java -version`, I see the following response: `java version "1.8.0_501" Java(TM) SE Runtime Environment (build 1.8.0_501-b08) Java HotSpot(TM) 64-Bit Server VM (build 25.501-b08, mixed mode)`|
+
 ### Testing the installation 
 https://www.dita-ot.org/dev/topics/determining-version-of-ditaot
 
-* We learned that running dita -version from the bin folder always works, because that is where the executable is. When testing whether the installation worked, we need to run dita -version from another folder. 
+* We learned that running `dita --version` from the bin folder always works, because that is where the executable is. When testing whether the installation worked, we need to run `dita --version` from another folder.
+* When I run `dita --version`, I see the following response: `java.lang.UnsupportedClassVersionError: org/dita/dost/invoker/Main has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 52.0`
 
 ## Recommendations for DITA-OT Docs
 (Concrete suggestions based on your experience.)
