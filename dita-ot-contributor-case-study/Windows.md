@@ -33,13 +33,22 @@ https://www.dita-ot.org/dev/topics/installing
 | ----------- | ----------- |
 | 1. Download the dita-ot-4.4.zip package from the project website at dita-ot.org/download. |We had no problems with this step. |
 | 2. Extract the contents of the package to the directory where you want to install DITA-OT. Note: The documentation refers to this location as the DITA-OT installation directory, or dita-ot-dir. |When I extracted the contents of the downloaded zip file into my "dita-ot-dir" folder, that process created a "dita-ot-4.4" folder within my "dita-ot-dir" folder and unzipped all files within that 4.4 subfolder. The solution was to move the contents of the "dita-ot-4.4" folder into my "dita-ot-dir" folder.|
-| 3. Add the absolute path for the bin folder of the DITA-OT installation directory to the PATH environment variable. |I used this command: setx PATH "%PATH%;C:\Users\ruths\dita-ot-dir" /M|
+| 3. Add the absolute path for the bin folder of the DITA-OT installation directory to the PATH environment variable. | I opened an Administrator Command Prompt window and entered this command: setx PATH "%PATH%;C:\Users\ruths\dita-ot-dir\bin" /M|
+
+### Pain points while installing DITA-OT
+* We didn't realize that we need to include \bin in the path when specifying the PATH evnironment variable. In hindsight, we realized that this is what "the absolute path for the bin folder" in step 3 means. We intend to make that more clear.
+* The PATH environment variable had too many characters. We used the echo command to copy the current string from the variable. We pasted that string into Notepad++. We replaced each semicolon with a semicolon and line break, so that we could see the list of paths more clearly. We mamually deleted duplicate paths. We later discovered that Notepad++ has an option to remove duplicates. As a side note, I asked Google about a more direct way to remove duplicates from the PATH environment variable; Google AI said, "On Windows, you can use specialized open-source tools like Pathix on GitHub to automatically remove duplicates and broken links."
+* We learned the difference between the set command and the setx command from this page: https://superuser.com/questions/916649/what-is-the-difference-between-setx-and-set-in-environment-variables-in-windows
+  * "set modifies the current shell's (the window's) environment values, and the change is available immediately, but it is temporary. The change will not affect other shells that are running, and as soon as you close the shell, the new value is lost until such time as you run set again."
+  * "setx modifies the value permanently, which affects all future shells, but does not modify the environment of the shells already running. You have to exit the shell and reopen it before the change will be available, but the value will remain modified until you change it again."
 
 ### Verifying prerequisite software
 https://www.dita-ot.org/dev/topics/prerequisite-software
 
 ### Testing the installation 
 https://www.dita-ot.org/dev/topics/determining-version-of-ditaot
+
+* We learned that running dita -version from the bin folder always works, because that is where the executable is. When testing whether the installation worked, we need to run dita -version from another folder. 
 
 ## Recommendations for DITA-OT Docs
 (Concrete suggestions based on your experience.)
